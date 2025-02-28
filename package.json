@@ -9,15 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@1stquad/react-bootstrap-datetimepicker": "^1.0.30",
+    "@copilotkit/react-core": "^1.6.0",
+    "@copilotkit/react-ui": "^1.6.0",
+    "@copilotkit/runtime": "^1.5.20",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.5",
+    "bootstrap": "^5.3.3",
+    "framer-motion": "^12.4.7",
+    "moment-timezone": "^0.5.47",
+    "mongoose": "^8.11.0",
+    "next": "15.1.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "react-bootstrap": "^2.10.9",
+    "react-datepicker": "^8.1.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@eslint/eslintrc": "^3",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
-    "@eslint/eslintrc": "^3"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
