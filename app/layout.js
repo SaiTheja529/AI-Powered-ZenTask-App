@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar";
 import { CopilotKit } from "@copilotkit/react-core"; 
 import "@copilotkit/react-ui/styles.css";
 import ITodo from "@/components/ITodo";
