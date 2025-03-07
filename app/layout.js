@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <CopilotKit publicApiKey="ck_pub_54921b504dfade70bcdb1cffb2053326"> 
+        <CopilotKit publicApiKey={process.env.API_KEY}> 
             <Navbar/>
             {children}
         </CopilotKit>
